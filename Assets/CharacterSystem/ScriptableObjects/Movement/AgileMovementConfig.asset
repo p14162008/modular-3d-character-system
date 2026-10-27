@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00000000000000000000000000000000, type: 3}
+  m_Name: AgileMovementConfig
+  acceleration: 28
+  deceleration: 36
+  airControlMultiplier: 0.85
+  rotationSpeed: 900
+  jumpApexHeight: 2.2
+  gravityMagnitude: 24
+  fallGravityMultiplier: 1.8
+  jumpCutMultiplier: 0.4
+  coyoteTime: 0.2
+  jumpBufferTime: 0.2
+  maxSlopeAngle: 50
+  slopeSlideSpeed: 14
+  stepOffset: 0.45
+  groundCheckDistance: 0.25
+  pushForce: 1.8

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00000000000000000000000000000000, type: 3}
+  m_Name: SteelGreatsword
+  itemId: wep_steel_greatsword
+  itemName: Steel Greatsword
+  description: A hefty two-handed blade capable of cleaving multiple foes.
+  slotType: 0
+  statModifiers:
+  - attributeType: 6
+    modifierType: 100
+    value: 25
+  - attributeType: 4
+    modifierType: 200
+    value: -0.08
+  visualPrefab: {fileID: 0}
+  attachmentSocketName: Weapon_R
+  weaponType: 1
+  comboSequence:
+  - attackName: Horizontal Cleave
+    animationTrigger: Greatsword_Slash1
+    damageMultiplier: 1.2
+    hitboxRadius: 1.2
+    attackDuration: 0.7
+    comboWindowStart: 0.4
+    comboWindowEnd: 0.85
+    hitboxActiveStart: 0.25
+    hitboxActiveEnd: 0.55
+    forwardImpulse: 3.5
+    staminaCost: 18
+    knockbackForce: 7
+  - attackName: Downward Crush
+    animationTrigger: Greatsword_Slash2
+    damageMultiplier: 1.6
+    hitboxRadius: 1.3
+    attackDuration: 0.8
+    comboWindowStart: 0.45
+    comboWindowEnd: 0.85
+    hitboxActiveStart: 0.3
+    hitboxActiveEnd: 0.6
+    forwardImpulse: 4
+    staminaCost: 22
+    knockbackForce: 9
+  - attackName: Whirlwind Finisher
+    animationTrigger: Greatsword_Finisher
+    damageMultiplier: 2.4
+    hitboxRadius: 1.6
+    attackDuration: 1.1
+    comboWindowStart: 1
+    comboWindowEnd: 1
+    hitboxActiveStart: 0.35
+    hitboxActiveEnd: 0.75
+    forwardImpulse: 5
+    staminaCost: 32
+    knockbackForce: 14

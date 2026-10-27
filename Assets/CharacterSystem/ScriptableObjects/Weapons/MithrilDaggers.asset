@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00000000000000000000000000000000, type: 3}
+  m_Name: MithrilDaggers
+  itemId: wep_mithril_daggers
+  itemName: Dual Mithril Daggers
+  description: Lightweight daggers built for lightning-fast consecutive strikes.
+  slotType: 0
+  statModifiers:
+  - attributeType: 6
+    modifierType: 100
+    value: 12
+  - attributeType: 8
+    modifierType: 200
+    value: 0.35
+  - attributeType: 9
+    modifierType: 100
+    value: 0.15
+  visualPrefab: {fileID: 0}
+  attachmentSocketName: Weapon_R
+  weaponType: 2
+  comboSequence:
+  - attackName: Quick Pierce
+    animationTrigger: Dagger_Stab1
+    damageMultiplier: 0.8
+    hitboxRadius: 0.6
+    attackDuration: 0.35
+    comboWindowStart: 0.3
+    comboWindowEnd: 0.9
+    hitboxActiveStart: 0.15
+    hitboxActiveEnd: 0.4
+    forwardImpulse: 2
+    staminaCost: 6
+    knockbackForce: 2.5
+  - attackName: Cross Flurry
+    animationTrigger: Dagger_Stab2
+    damageMultiplier: 1
+    hitboxRadius: 0.65
+    attackDuration: 0.4
+    comboWindowStart: 0.3
+    comboWindowEnd: 0.9
+    hitboxActiveStart: 0.15
+    hitboxActiveEnd: 0.45
+    forwardImpulse: 2.5
+    staminaCost: 8
+    knockbackForce: 3
+  - attackName: Shadow Eviscerate
+    animationTrigger: Dagger_Finisher
+    damageMultiplier: 1.8
+    hitboxRadius: 0.8
+    attackDuration: 0.6
+    comboWindowStart: 1
+    comboWindowEnd: 1
+    hitboxActiveStart: 0.2
+    hitboxActiveEnd: 0.55
+    forwardImpulse: 4.5
+    staminaCost: 14
+    knockbackForce: 6
